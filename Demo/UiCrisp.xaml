@@ -1,0 +1,30 @@
+﻿<Window x:Class="VSIM_VEFR.Demo.UiCrisp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VSIM_VEFR.Demo"
+         Loaded="Window_Loaded"
+        mc:Ignorable="d"
+         
+        Title="UiCrisp" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <ComboBox Name="combo_crisp" Width="194" SelectionChanged="Combo_crisp_SelectionChanged">
+                <ComboBoxItem Content="Density"/>
+
+                <ComboBoxItem Content="Valid Distance"/>
+
+                <ComboBoxItem Content="Transmission Distance"/>
+
+                <ComboBoxItem Content="Moving Direction"/>
+
+                <ComboBoxItem Content="Speed Difference"/>
+            </ComboBox>
+        </StackPanel>
+
+        <DataGrid MaxHeight="1000" VerticalScrollBarVisibility="Visible" Name="dg">
+            
+        </DataGrid>
+    </StackPanel>
+</Window>

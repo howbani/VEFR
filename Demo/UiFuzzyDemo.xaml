@@ -1,0 +1,38 @@
+﻿<Window 
+        xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" 
+        x:Class="VSIM_VEFR.Demo.UiFuzzyDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VSIM_VEFR.Demo"
+        mc:Ignorable="d"
+        Title="UiFuzzyDemo" Height="551.389" Width="800">
+    <StackPanel Name="stack_main" Orientation="Vertical">
+        <StackPanel Orientation="Horizontal">
+            <ComboBox Name="combo_liguesticvar" Width="120" SelectionChanged="Combo_liguesticvar_SelectionChanged">
+                <ComboBoxItem Content="Density"/>
+
+                <ComboBoxItem Content="Valid Distance"/>
+
+                <ComboBoxItem Content="Transmission Distance"/>
+
+                <ComboBoxItem Content="Moving Direction"/>
+
+                <ComboBoxItem Content="Speed Difference"/>
+
+            </ComboBox>
+        </StackPanel>
+
+
+        <StackPanel Orientation="Horizontal" >
+            <chartingToolkit:Chart Name="chart_1" Title="Density" Margin="1" VerticalAlignment="Top" Foreground="#FFB40010" BorderBrush="#FFB40010" Height="489" Width="780"  >
+                <chartingToolkit:LineSeries Title="H"  Name="line1"  DependentValuePath="Value" IndependentValuePath="Key" ItemsSource="{Binding}" IsSelectionEnabled="True" BorderBrush="#FFB40010"/>
+                <chartingToolkit:LineSeries Title="M" Name="line2"   DependentValuePath="Value" IndependentValuePath="Key" ItemsSource="{Binding}" IsSelectionEnabled="True"/>
+                <chartingToolkit:LineSeries Title="L" Name="line3"   DependentValuePath="Value" IndependentValuePath="Key" ItemsSource="{Binding}" IsSelectionEnabled="True" Margin="0,0,-18,-14.2"/>
+            </chartingToolkit:Chart>
+        </StackPanel>
+
+
+    </StackPanel>
+</Window>
