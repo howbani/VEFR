@@ -4,13 +4,13 @@ To simulate VEFR, a new platform with a graphical user interface that provides a
 Developed by Ammar Hawbani et al.  (anmande@ustc.edu.cn), Copyright © 2019 Ammar Hawbani et al. 
 
 
-
 Implementation 
 -----
-	Crisps, fuzzy sets and fuzzy membership functions are implemented on [https://github.com/howbani/VEFR/tree/master/FuzzySets] 
+	Crisps, fuzzy sets and fuzzy membership functions are implemented 
+	[https://github.com/howbani/VEFR/tree/master/FuzzySets] 
 	Inter-path is implemented on [https://github.com/howbani/VEFR/blob/master/Routing/InterRouting.cs]
 	Intra-path is selected on [https://github.com/howbani/VEFR/blob/master/Routing/IntraRouting.cs]
-	Road network including lanes, segment, junction are implemented in the link [https://github.com/howbani/VEFR/tree/master/RoadNet/Components]
+	Road network including lanes, segment, junction are implemented in the link  [https://github.com/howbani/VEFR/tree/master/RoadNet/Components]
 	Vehicle is Implemented in [https://github.com/howbani/VEFR/blob/master/RoadNet/Components/VehicleUi.xaml.cs] 
 
 
