@@ -33,8 +33,11 @@ If any bugs are encountered during the execution of the toolkit, please restart 
 
 Installation Problems
 -----
-1-      I can't run the Tool kit:
+1-      I can't run the Tool kit: 
+
         -          Install the DOT NET 4.5: Click here to download.
 2-      I can't see the topologies:
+
      -          Toolkit can't read the topology, please install the OLEDB engine. Click here to download.
 3-      If you encounter any other problems, please check your operating system capability. This toolkit is tested on windows 8 platform.
+
