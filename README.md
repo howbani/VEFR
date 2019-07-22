@@ -4,24 +4,24 @@ To simulate VEFR, a new platform with a graphical user interface that provides a
 Developed by Ammar Hawbani et al.  (anmande@ustc.edu.cn), Copyright © 2019 Ammar Hawbani et al. 
 
 
-#Implementation 
+Implementation 
 -----
-	Crisps, fuzzy sets and fuzzy membership functions are implemented in:
-	[https://github.com/howbani/VEFR/tree/master/FuzzySets] 
+Crisps, fuzzy sets and fuzzy membership functions are implemented in:
+[https://github.com/howbani/VEFR/tree/master/FuzzySets] 
 	
-	Inter-path is implemented on
-	[https://github.com/howbani/VEFR/blob/master/Routing/InterRouting.cs]
+Inter-path is implemented on
+[https://github.com/howbani/VEFR/blob/master/Routing/InterRouting.cs]
 	
-	Intra-path is selected on 
-	[https://github.com/howbani/VEFR/blob/master/Routing/IntraRouting.cs]
+Intra-path is selected on 
+[https://github.com/howbani/VEFR/blob/master/Routing/IntraRouting.cs]
 	
-	Road network including lanes, segment, junction are implemented in the link 
-	[https://github.com/howbani/VEFR/tree/master/RoadNet/Components]
+Road network including lanes, segment, junction are implemented in the link 
+[https://github.com/howbani/VEFR/tree/master/RoadNet/Components]
 	
-	Vehicle is Implemented in
-	[https://github.com/howbani/VEFR/blob/master/RoadNet/Components/VehicleUi.xaml.cs] 
+Vehicle is Implemented in
+[https://github.com/howbani/VEFR/blob/master/RoadNet/Components/VehicleUi.xaml.cs] 
 
-#Data sets 
+Data sets 
 -----
 Road network size is set to 4000m×4500m with 12 junctions and 17 road segments (two roadways each with 2 lanes). The traffic light is set to 5 seconds. The starting position of vehicles is randomly distributed on the road network. Vehicles travel with a maximum speed of 90kmph and minimum speed of 30kmph. 
 	The intra-path data set contains 1M records, can be found via the link: [http://staff.ustc.edu.cn/~anmande/dataset/1m_intra_4lanes_400v.rar].
