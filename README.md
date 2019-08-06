@@ -30,9 +30,13 @@ Road network size is set to 4000m×4500m with 12 junctions and 17 road segments 
 Modification 
 -----
 To implement your own protocol on our platform, follow the steps:
+
 	Add your protocol  name in [https://github.com/howbani/VEFR/blob/master/Routing/Protcols.cs] 
+	
 	Your road segment selection strategy should be added to [https://github.com/howbani/VEFR/blob/master/Routing/InterRouting.cs]
+	
 	Your vehicle selection should be added to [https://github.com/howbani/VEFR/blob/master/Routing/IntraRouting.cs]
+	
 
 Bugs
 -----
