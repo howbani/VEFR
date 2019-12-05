@@ -7,6 +7,9 @@ To simulate VEFR, a new platform with a graphical user interface that provides a
 
 Developed by Ammar Hawbani et al.  (anmande@ustc.edu.cn), Copyright © 2019 Ammar Hawbani et al. 
 
+# cite this work:
+A. Hawbani, E. Torbosh, W. Xingfu, P. Sincak, L. Zhao and A. Y. Al-Dubai, "Fuzzy based Distributed Protocol for Vehicle to Vehicle Communication," in IEEE Transactions on Fuzzy Systems. doi: 10.1109/TFUZZ.2019.2957254
+#  download  this work: https://ieeexplore.ieee.org/document/8920135
 
 Implementation 
 -----
